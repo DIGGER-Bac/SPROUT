@@ -1,0 +1,14 @@
+# with this config file, you can create various amounts of sequences with different configurations.
+# They will be stored in an Excel sheet as well as in the fasta format for further procession.
+# You can copy the short code of the last consensus from the file 'config_single.yml'.
+
+# the format for one output configuration is as follows:
+# name of configuration | amount of sequences to be created | length_polyU; U_percentage_polyU | length_ARN; A_percentage_pos_II; A_percentage_pos_III; G_percentage_pos_III; C_percentage_pos_III | length_gap | length_stem (amount basepairs); length_loop | additional data
+#                  general data                             |        poly-U motif              |                                              ARN motif                                            | gap motif  |      stemloop motif      | could contain the sRNA names of the consensus 
+# below you find an example how the configuration could look like (without the #):
+# new_config | 10 | 7; 1.00 | 9; 0.71; 0.38; 0.12; 0.17 | 48 | 7; 3 | testdata 
+
+# you can add one or more configurations below: 
+
+ChiX_MgrR_consensus_config | 5 | 7; 1.00 | 9; 0.79; 0.67; 0.12; 0.08 | 13 | 4; 10 | ChiX MgrR
+ChiX_McaS_MgrR_consensus_config | 5 | 7; 0.96 | 6; 0.63; 0.63; 0.20; 0.07 | 26 | 5; 9 | ChiX McaS MgrR

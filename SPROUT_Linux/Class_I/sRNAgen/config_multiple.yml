@@ -1,0 +1,14 @@
+# with this config file, you can create various amounts of sequences with different configurations
+# They will be stored in an Excel sheet as well as in the fasta format for further procession. 
+# You can copy the short code of the last consensus from the file 'config_single.yml'.
+
+# the format for one output configuration is as follows:
+# name of configuration | amount of sequences to be created | length_polyU; U_percentage_polyU | length_richUA; U_percentage_richUA; A_percentage_richUA | length_gap | length_stem; length_loop | additional data
+#                  general data                             |        poly-U motif              |                       rich-UA motif                     | gap motif  |      stemloop motif      | could contain the sRNA names of the consensus 
+# below you find an example how the configuration could look like (without the #):
+# new_config | 10 | 5; 0.98 | 5; 0.5; 0.4 | 3 | 14; 4 | testdata 
+
+# you can add one or more configurations below: 
+
+MicA_MicF_RybB_consensus_config | 10 | 5; 1.00 | 5; 0.72; 0.28 | 2 | 6; 6 | MicA MicF RybB
+MicA_MicF_consensus_config | 10 | 6; 1.00 | 6; 0.69; 0.31 | 1 | 7; 3 | MicA MicF

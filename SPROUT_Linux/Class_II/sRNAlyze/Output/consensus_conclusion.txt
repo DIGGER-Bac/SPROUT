@@ -1,0 +1,49 @@
+# consensus of the following sequences:
+# ChiX McaS MgrR 
+
+# To modify this configuration, you can add the following line to the blueprint.txt in sRNA_create and follow the instructions there:
+consensus_config;5  |A 6; 0.63; 0.63; 0.07; 0.10 |G; 26 |S; 5; 9 |M; 7; 0.01; 0.01; 0.96
+
+#######################################
+# amount
+amount = 5
+#######################################
+# ARN motif
+#---------------------
+# length
+length_ARN = 6
+
+# share A on 2nd position
+A_percentage_II = 0.63
+
+# share A on 3rd position
+A_percentage_III = 0.63
+
+# share G on 3rd position
+G_percentage_III = 0.20
+
+# share C on 3rd position
+C_percentage_III = 0.07
+
+#---------------------
+# gap motif (distance between stem and ARN-motif)
+#---------------------
+# length
+length_gap = 26
+
+#---------------------
+# stemloop motif
+#---------------------
+# length stem (amount basepairs)
+length_stem = 5
+# length loop (amount unpaired bases)
+length_loop = 9
+#---------------------
+# poly-U- motif
+#---------------------
+# length
+length_polyU = 7
+
+# share U on all bases
+U_percentage_polyU = 0.96
+

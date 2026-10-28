@@ -1,0 +1,31 @@
+# With this file, you can create sequences for synthetic sRNA from scratch.
+# To do this, you can add and parameterize the following motives:
+
+## Stemloop 
+#     Parameters: stemlength (amount basepairs), looplength (amount of unpaired nucleotides)
+#  example input: |S; 10; 5
+## Motif
+#     Parameters: length, probability for A, probability for C, probability for U
+#  example input: |M; 7; 0.5; 0.3; 0.1
+## ARN-motif
+#     Parameters: length (dividable by 3), probability for A on second position, 
+#                                          probability for A on third position, 
+#                                          probability for C on third position, 
+#                                          probability for U on third position
+#  example input: |A; 9; 0.5; 0.3; 0.3; 0.1
+## Gap
+#     Parameter: length
+#  example input: |G; 9
+## Sequence
+#     Parameter: Sequence as a String
+#  example input: |Seq; ACGUAGAACG
+
+# An example input for a gap, followed by a Stemloop with a poly-U-motif would look like this (without the #):
+# name;10|G; 9|S; 10; 5|M; 7; 0.01; 0; 0.99
+# additional data at the beginning determines the name and the amount of sequences to be created following the schema
+
+# Here you can add multiple blueprints:
+
+stem-UA-stem-polyU;5|S; 10; 5|M; 8; 0.5; 0; 0.5|S; 10; 5|M; 6; 0; 0; 1
+gap-ARN-stem-polyU;5|G; 9|A; 9; 0.5; 0.3; 0.3; 0.1|S; 8; 5|Seq; UUUUUU
+GAA-gap-stem-polyU;5|Seq; GAAGAAGAAGAA|G; 6|S; 10; 5|M; 6; 0; 0; 1

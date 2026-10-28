@@ -1,0 +1,20 @@
+# analyze sequences
+
+# poly-U
+## how many exeptions (anything but U) in a row are allowed before the search stops?
+Skip_noU = 1
+
+# stemloop
+## what is the maximal positional entropy before the prediction for a pairing will be abandoned? (default: 1.2)
+threshold_Prob = 1.2
+
+## how many false brackets on the edge of the stemloop are tolerated? (default: 2)
+threshold_StemLoopError = 2
+
+    
+# generate sequences
+
+## amount of sequences to be generated:
+amount_sequences = 5
+
+

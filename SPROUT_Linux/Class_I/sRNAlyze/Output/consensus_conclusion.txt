@@ -1,0 +1,43 @@
+# consensus of the following sequences:
+# MicA MicF RybB 
+
+# To modify this configuration, you can add the following line to the blueprint.txt in sRNA_create and follow the instructions there:
+consensus_config;10 |M; 5; 0.28; 0.00; 0.72 |G; 2 |S; 6; 6 |M; 5; 0.00; 0.00; 1.00
+
+#######################################
+# amount
+amount = 10
+#######################################
+# UA-rich motif
+#---------------------
+# length
+length_richUA = 5
+
+# share U on all bases
+U_percentage_richUA = 0.72
+
+# share A on all bases
+A_percentage_richUA = 0.28
+
+#---------------------
+# gap motif (distance between stem and UA-motif)
+#---------------------
+# length
+length_gap = 2
+
+#---------------------
+# stemloop motif
+#---------------------
+# length stem (amount basepairs)
+length_stem = 6
+# length loop (amount unpaired bases)
+length_loop = 6
+#---------------------
+# poly-U- motif
+#---------------------
+# length
+length_polyU = 5
+
+# share U on all bases
+U_percentage_polyU = 1.00
+

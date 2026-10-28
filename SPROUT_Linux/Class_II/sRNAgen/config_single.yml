@@ -1,0 +1,50 @@
+# set parameters for sequences to be generated
+# consensus of the following sequences:
+#  ChiX McaS MgrR
+
+# To add this configuration to your queue of multiple outputs, add the following line to the config file 'config_multiple.yml':
+ChiX_McaS_MgrR_consensus_config | 5 | 7; 0.96 | 6; 0.63; 0.63; 0.20; 0.07 | 26 | 5; 9 |  ChiX McaS MgrR
+
+#######################################
+# amount
+amount = 5
+#######################################
+# ARN motive
+#---------------------
+# length
+length_ARN = 6
+
+# share A on 2nd position
+A_percentage_II = 0.63
+
+# share A on 3rd position
+A_percentage_III = 0.63
+
+# share G on 3rd position
+G_percentage_III = 0.20
+
+# share C on 3rd position
+C_percentage_III = 0.07
+
+#---------------------
+# gap motive (distance between stem and ARN-motive)
+#---------------------
+# length
+length_gap = 26
+
+#---------------------
+# stemloop motive
+#---------------------
+# length stem (amount basepairs)
+length_stem = 5
+# length loop (amount unpaired bases)
+length_loop = 9
+#---------------------
+# poly-U- motive
+#---------------------
+# length
+length_polyU = 7
+
+# share U on all bases
+U_percentage_polyU = 0.96
+

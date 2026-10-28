@@ -1,0 +1,28 @@
+# analyze sequences
+
+# poly-U
+## how many exeptions (anything but U) in a row are allowed before the search stops?
+Skip_noU = 1
+
+# stemloop
+## what is the maximal positional entropy before the prediction for a pairing wil be abandoned? (default: 1.2 #0.7 #1.5)
+threshold_Prob = 1.2
+
+## how many false brackets on the edge of the stemloop are tolerated? (default: 2)
+threshold_StemLoopError = 2
+
+# UA-rich sequence
+## what is the maximal allowed distance between stemloop and UA-rich sequence?
+max_gap_to_UA = 6
+
+## minimal and maximal size of UA-motive
+window_size_UA_min = 4
+window_size_UA_max = 7
+
+    
+# generate sequences
+
+## amount of sequences to be generated:
+amount_sequences = 10
+
+

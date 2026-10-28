@@ -1,0 +1,22 @@
+ChiX_MgrR_consensus_config # motive length (f.l.t.r.): 9, 13, 14, 7, possibilities: A_II: 0.79, A_III:0.67, G_III:0.12, C_III:0.08, U(polyU): 1.00, length loop: 10
+>1_ChiX_MgrR_consensus_config_sequence_1
+GGGCUCCUUUUUUUGCCCUUUUUUU, AAAAGAAAC, gap: 13
+>1_ChiX_MgrR_consensus_config_sequence_2
+GGCCAACAAAACACGGCCUUUUUUU, AAGAAAAAG, gap: 13
+>1_ChiX_MgrR_consensus_config_sequence_3
+GCGGACCACAAAACCCGCUUUUUUU, AAAAAAAAA, gap: 13
+>1_ChiX_MgrR_consensus_config_sequence_4
+GGCCUUUUUUCUCUGGCCUUUUUUU, AAAAAAAGA, gap: 13
+>1_ChiX_MgrR_consensus_config_sequence_5
+GGCCAAAACAACACGGCCUUUUUUU, AGAAAGAGA, gap: 13
+ChiX_McaS_MgrR_consensus_config # motive length (f.l.t.r.): 6, 26, 14, 7, possibilities: A_II: 0.63, A_III:0.63, G_III:0.20, C_III:0.07, U(polyU): 0.96, length loop: 9
+>2_ChiX_McaS_MgrR_consensus_config_sequence_1
+GGCCCAAAAAAACAGGGCCUUUUUUU, AAAAAA, gap: 26
+>2_ChiX_McaS_MgrR_consensus_config_sequence_2
+GGGCCUCUUUUUUUGGCCCUUUUUUU, AAUAAA, gap: 26
+>2_ChiX_McaS_MgrR_consensus_config_sequence_3
+GGCCCGAAAAAAAAGGGCCUUUUUUU, AGAAAA, gap: 26
+>2_ChiX_McaS_MgrR_consensus_config_sequence_4
+GGCCCAAAAAACAAGGGCCUUUUUUU, AGAAAG, gap: 26
+>2_ChiX_McaS_MgrR_consensus_config_sequence_5
+GCCGCUCUUUCCUUGCGGCUUUUUUU, AAGAGU, gap: 26

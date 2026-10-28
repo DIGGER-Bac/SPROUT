@@ -1,0 +1,44 @@
+# set parameters for sequences to be generated
+# consensus of the following sequences:
+#  MicA MicF
+
+# To add this configuration to your queue of multiple outputs, add the following line to the config file 'config_multiple.yml':
+MicA_MicF_consensus_config | 10 | 6; 1.00 | 6; 0.69; 0.31 | 1 | 7; 3 |  MicA MicF
+
+#######################################
+# amount
+amount = 10
+#######################################
+# UA-rich motif
+#---------------------
+# length
+length_richUA = 6
+
+# share U on all bases
+U_percentage_richUA = 0.69
+
+# share A on all bases
+A_percentage_richUA = 0.31
+
+#---------------------
+# gap motif (distance between stem and UA-motif)
+#---------------------
+# length
+length_gap = 1
+
+#---------------------
+# stemloop motif
+#---------------------
+# length stem (amount basepairs)
+length_stem = 7
+# length loop  (amount unpaired bases)
+length_loop = 3
+#---------------------
+# poly-U- motif
+#---------------------
+# length
+length_polyU = 6
+
+# share U on all bases
+U_percentage_polyU = 1.00
+
