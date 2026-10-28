@@ -156,10 +156,3 @@ mount the host path "\~/SPROUT\_Linux" (the "\~" represents the complete path on
 * after that, navigate to "/home/sRNA\_visualize"
 * start visualizing with the command "python3 sRNA\_visualize.py"
 * the visualization can be found in the Output folder as a .xlsx file
-
-
-
-## Overview of the folder structure
-
-[Structure.txt](https://github.com/DIGGER-Bac/MOISten/files/14463396/Structure.txt)
-
