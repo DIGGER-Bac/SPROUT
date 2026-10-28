@@ -3,7 +3,7 @@
 SPROUT (Small RNA Profiling, Reconstruction, and Optimization Utility Tool) contains four programs: Class I, Class II, sRNA\_create and sRNA\_visualize.
 
 With this tool, class I and II small RNAs (sRNAs) can be analyzed with regard to motifs within their scaffold sequences (function sRNAlyze in Class\_I and Class\_II).
-Based on this analysis, new synthetic sRNA scaffolds can be generated based on the consensus motifs (function sRNAgen in Class\_I and Class\_II).
+Based on this analysis, new synthetic sRNA scaffolds can be generated (function sRNAgen in Class\_I and Class\_II).
 Additionally, synthetic sRNAs can be generated from scratch and the consensus motifs can be modified as needed by the user (sRNA\_create).
 Another functionality is the visualization of the analyzed/created sRNAs (sRNA\_visualize).
 
